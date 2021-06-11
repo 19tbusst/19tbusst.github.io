@@ -1,0 +1,20 @@
+p {
+    color: #333333;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+    color:#333333;
+}
+
+a {
+    display: block;
+    text-align: center;
+    color: #333333;
+}
