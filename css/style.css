@@ -18,3 +18,14 @@ a {
     text-align: center;
     color: #333333;
 }
+
+.lang_desc {
+    color: #39454d
+}
+
+.code_img {
+    height: auto;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
