@@ -1,20 +1,31 @@
-p {
-    color: #333333;
-    text-align: center;
+body {
+    margin: 0;
 }
 
-ul {
+header {
+    background-color: #333;
+    color: lightsalmon;
     text-align: center;
-    list-style-type: none;
+    padding: 25px 0;
+    margin-bottom: 25px;
 }
 
-h1 {
-    text-align: center;
-    color:#333333;
+main {
+    background-color: #e4e4e4;
+    width: 600px;
+    padding: 20px;
+    border: lightsalmon 2px solid;
+    margin: 0 auto;
 }
 
-a {
-    display: block;
+.img {
+    width: 600px;
+}
+
+footer {
+    background-color: #333;
+    color: lightsalmon;
     text-align: center;
-    color: #333333;
+    padding: 25px 0;
+    margin-top: 25px;
 }
