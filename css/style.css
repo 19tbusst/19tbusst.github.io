@@ -1,5 +1,5 @@
 p {
-    color: white;
+    color: #333333;
     text-align: center;
 }
 
@@ -10,36 +10,11 @@ ul {
 
 h1 {
     text-align: center;
-    color: white;
-}
-
-header {
-    color: white;
-    width: 110px;
-    margin: 0 auto;
-    padding: 50px 40px;
-    border: #ed6b51 3px solid;
+    color:#333333;
 }
 
 a {
     display: block;
     text-align: center;
-    color: #333;
-}
-
-.main-a {
-    display: block;
-    text-align: center;
-    color: white;
-}
-
-.lang_desc {
-    color: #39454d
-}
-
-.code_img {
-    height: auto;
-    width: 400px;
-    display: block;
-    margin: 0 auto;
+    color: #333333;
 }
