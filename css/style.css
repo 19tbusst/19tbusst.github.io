@@ -1,3 +1,11 @@
+/*
+dark primary color: #1976D2
+primary color: #2196F3
+accent color: #FF4081
+light primary color: #BBDEFB
+text color: #FFFFFF
+*/
+
 body {
     margin: 0;
     font: 20px sans-serif;
@@ -5,10 +13,45 @@ body {
 
 header {
     background-color: #333;
-    color: lightsalmon;
+    background-color: #1976D2;
     text-align: center;
-    padding: 25px 0;
+    padding: 25px 0 0;
     margin-bottom: 25px;
+}
+
+header h1 {
+    color: #FFFFFF;
+}
+
+nav {
+    background-color: #2196F3;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav li, nav a {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+nav a:hover {
+    color: #212121;
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3 {
+    color: #212121;
+}
+
+p {
+    color: #757575;
 }
 
 .intro {
@@ -17,7 +60,7 @@ header {
 }
 
 .base {
-    background-color: #333;
+    background-color: #2196F3;
 }
 
 .columns {
@@ -26,8 +69,15 @@ header {
 }
 
 .column {
-    color: lightsalmon;
     width: 400px;
     padding: 25px;
     text-align: center;
+}
+
+.column p {
+    color: #BBDEFB;
+}
+
+.column h3 {
+    color: #FFFFFF;
 }
