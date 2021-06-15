@@ -10,7 +10,6 @@ body {
     margin: 0;
     font: 20px sans-serif;
 }
-
 header {
     background-color: #333;
     background-color: #1976D2;
@@ -29,6 +28,7 @@ nav {
 
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 nav a {
@@ -43,7 +43,6 @@ nav li, nav a {
 
 nav a:hover {
     color: #212121;
-    background-color: #FFFFFF;
 }
 
 h1, h2, h3 {
@@ -57,6 +56,10 @@ p {
 .intro {
     text-align: center;
     margin: 50px auto;
+}
+
+.intro img {
+    padding: 25px 0 0;
 }
 
 .base {
