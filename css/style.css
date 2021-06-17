@@ -14,26 +14,31 @@ header {
     background-color: #333;
     background-color: #1976D2;
     text-align: center;
-    padding: 25px 0 0;
-    margin-bottom: 25px;
 }
 
 header h1 {
     color: #FFFFFF;
+    padding: 60px 0 40px;
 }
 
 nav {
     background-color: #2196F3;
+    position: fixed;
+    top: 0;
+    height: 45px;
+    width: 100%;
 }
 
 nav ul {
     list-style: none;
+    margin: 10px;
     padding: 0;
 }
 
 nav a {
     color: #FFFFFF;
     text-decoration: none;
+    border: 2px solid #2196F3;
 }
 
 nav li, nav a {
@@ -43,6 +48,8 @@ nav li, nav a {
 
 nav a:hover {
     color: #212121;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #BBDEFB;
 }
 
 h1, h2, h3 {
@@ -59,7 +66,7 @@ p {
 }
 
 .intro img {
-    padding: 25px 0 0;
+    margin: 25px 0 0;
 }
 
 .base {
@@ -73,7 +80,7 @@ p {
 
 .column {
     width: 400px;
-    padding: 25px;
+    margin: 25px;
     text-align: center;
 }
 
