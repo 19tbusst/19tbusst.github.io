@@ -10,6 +10,22 @@ body {
     margin: 0;
     font: 20px sans-serif;
 }
+
+footer {
+    background-color: #1976D2;
+    padding: 15px 10px;
+    text-align: right;
+}
+
+footer a {
+    text-decoration: none;
+    color: #BBDEFB;
+}
+
+footer a:hover {
+    color: #FFFFFF;
+}
+
 header {
     background-color: #333;
     background-color: #1976D2;
@@ -27,6 +43,7 @@ nav {
     top: 0;
     height: 45px;
     width: 100%;
+    box-shadow: 0 1px 20px black;
 }
 
 nav ul {
@@ -54,10 +71,12 @@ nav a:hover {
 
 h1, h2, h3 {
     color: #212121;
+    text-align: center;
 }
 
-p {
+main p{
     color: #757575;
+    text-align: center;
 }
 
 .intro {
@@ -90,4 +109,44 @@ p {
 
 .column h3 {
     color: #FFFFFF;
+}
+
+.project {
+    margin: 150px 0 0;
+    padding: 25px   ;
+    background-color: #2196F3;
+    height: 550px;
+}
+
+.project h2, h3, h4 {
+    color: #FFFFFF;
+}
+
+.project p {
+    color: #BBDEFB;
+}
+
+.project a {
+    text-decoration: none;
+    color: #BBDEFB;
+}
+
+.project a:hover {
+    color: #FFFFFF;
+}
+
+.project img {
+    display: block;
+    height: 300px;
+    margin: 10px auto;
+}
+
+.project-flex {
+    justify-content: center;
+    display: flex;
+}
+
+.project-flex-content {
+    margin: 3px;
+    text-align: center;
 }
