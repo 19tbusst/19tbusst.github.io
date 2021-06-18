@@ -11,6 +11,13 @@ body {
     font: 20px sans-serif;
 }
 
+.panels {
+    background: url(../img/code.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 footer {
     background-color: #1976D2;
     padding: 15px 10px;
@@ -34,7 +41,8 @@ header {
 
 header h1 {
     color: #FFFFFF;
-    padding: 60px 0 40px;
+    padding: 85px 0 40px;
+    margin: 0;
 }
 
 nav {
@@ -50,6 +58,13 @@ nav ul {
     list-style: none;
     margin: 10px;
     padding: 0;
+    float: left;
+}
+
+nav img {
+    height: 35px;
+    float: left;
+    margin: 6px 0 0 7px;
 }
 
 nav a {
@@ -66,7 +81,7 @@ nav li, nav a {
 nav a:hover {
     color: #212121;
     padding-bottom: 5px;
-    border-bottom: 5px solid #BBDEFB;
+    box-shadow: 0 4px 2px -2px #FFFFFF;
 }
 
 h1, h2, h3 {
@@ -113,9 +128,14 @@ main p{
 
 .project {
     margin: 150px 0 0;
-    padding: 25px   ;
+    padding: 25px;
     background-color: #2196F3;
     height: 550px;
+    box-shadow: 0 5px 10px black;
+}
+
+#project-top {
+    margin: 0;
 }
 
 .project h2, h3, h4 {
