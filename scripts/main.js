@@ -1,4 +1,5 @@
 var r = document.querySelector(':root');
+localStorage.setItem('mode', 'true');
 
 var darkMode = {
     darkPrimaryColor: '#182742',
@@ -49,8 +50,6 @@ function darkModeOn() {
     localStorage.setItem('mode', 'false');
     darkModeEnable();
 }
-
-console.log(localStorage.getItem('mode'));
 
 if (localStorage.getItem('mode') == 'true') {
     console.log('light')
