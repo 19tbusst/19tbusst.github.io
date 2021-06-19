@@ -1,14 +1,15 @@
 /*
-dark primary color: #1976D2
-primary color: #2196F3
+dark primary color: var(--dark-primary-color)
+primary color: var(--primary-color)
 accent color: #FF4081
-light primary color: #BBDEFB
-text color: #FFFFFF
+light primary color: var(--light-primary)
+text color: var(--text-color)
 */
 
 body {
     margin: 0;
     font: 20px sans-serif;
+    background-color: var(--background-color);
 }
 
 .panels {
@@ -19,34 +20,34 @@ body {
 }
 
 footer {
-    background-color: #1976D2;
+    background-color: var(--dark-primary-color);
     padding: 15px 10px;
     text-align: right;
 }
 
 footer a {
     text-decoration: none;
-    color: #BBDEFB;
+    color: var(--light-primary);
 }
 
 footer a:hover {
-    color: #FFFFFF;
+    color: var(--text-color);
 }
 
 header {
     background-color: #333;
-    background-color: #1976D2;
+    background-color: var(--dark-primary-color);
     text-align: center;
 }
 
 header h1 {
-    color: #FFFFFF;
+    color: var(--text-color);
     padding: 85px 0 40px;
     margin: 0;
 }
 
 nav {
-    background-color: #2196F3;
+    background-color: var(--primary-color);
     position: fixed;
     top: 0;
     height: 45px;
@@ -66,11 +67,20 @@ nav img {
     float: left;
     margin: 6px 0 0 7px;
 }
+nav button {
+    background-color: var(--background-color);
+    color: var(--dark-primary-color);
+    border: none;
+    font-size: 12px;
+    padding: 7px 15px;
+    float: right;
+    margin: 8px 8px;
+}
 
 nav a {
-    color: #FFFFFF;
+    color: var(--text-color);
     text-decoration: none;
-    border: 2px solid #2196F3;
+    border: 2px solid var(--primary-color);
 }
 
 nav li, nav a {
@@ -81,7 +91,7 @@ nav li, nav a {
 nav a:hover {
     color: #212121;
     padding-bottom: 5px;
-    box-shadow: 0 4px 2px -2px #FFFFFF;
+    box-shadow: 0 4px 2px -2px var(--text-color);
 }
 
 h1, h2, h3 {
@@ -90,7 +100,7 @@ h1, h2, h3 {
 }
 
 main p{
-    color: #757575;
+    color: var(--white-text-color);
     text-align: center;
 }
 
@@ -104,7 +114,7 @@ main p{
 }
 
 .base {
-    background-color: #2196F3;
+    background-color: var(--primary-color);
 }
 
 .columns {
@@ -119,17 +129,17 @@ main p{
 }
 
 .column p {
-    color: #BBDEFB;
+    color: var(--light-primary);
 }
 
 .column h3 {
-    color: #FFFFFF;
+    color: var(--text-color);
 }
 
 .project {
     margin: 150px 0 0;
     padding: 25px;
-    background-color: #2196F3;
+    background-color: var(--primary-color);
     height: 550px;
     box-shadow: 0 5px 10px black;
 }
@@ -138,21 +148,21 @@ main p{
     margin: 0;
 }
 
-.project h2, h3, h4 {
-    color: #FFFFFF;
+.project h2, .project h3, .project h4 {
+    color: var(--text-color);
 }
 
 .project p {
-    color: #BBDEFB;
+    color: var(--light-primary);
 }
 
 .project a {
     text-decoration: none;
-    color: #BBDEFB;
+    color: var(--light-primary);
 }
 
 .project a:hover {
-    color: #FFFFFF;
+    color: var(--text-color);
 }
 
 .project img {
@@ -170,3 +180,31 @@ main p{
     margin: 3px;
     text-align: center;
 }
+
+.calc-column {
+    display: flex;
+}
+
+.calc-column button {
+    width: 30px;
+}
+
+:root {
+    --dark-primary-color: #1976D2;
+    --primary-color: #2196F3;
+    --accent-color: #FF4081;
+    --light-primary: #BBDEFB;
+    --text-color: #FFFFFF;
+    --white-text-color: #363636;
+    --background-color: #FFFFFF;
+}
+
+/*:darkmode {
+    --dark-primary-color: #182742;
+    --primary-color: #233963;
+    --accent-color: #FF4081;
+    --light-primary: #4570bf;
+    --text-color: #b0b0b0;
+    --white-text-color: #b0b0b0;
+    --background-color: #5b6d8c;
+}*/
