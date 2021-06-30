@@ -4,7 +4,8 @@
         <title>JScripts</title>
         <link rel="stylesheet" href="./css/style.css">
         <link rel="icon" href="./img/Xeonx_.png">
-        <script src="./scripts/main.js"></script>
+        <script src="./scripts/light_dark.js"></script>
+        <script src="./scripts/rock_paper_scissors.js"></script>
     </head>
     <body>
         <header>
@@ -21,8 +22,20 @@
             <h1>JScripts</h1>
         </header>
         <main>
-            <h3 id="heading">Hello</h3>
-            <p>Test paragraph</p>
+            <h3>Rock, Paper, Scissors</h3>
+            <p>This is a game of rock, paper, scissors!</p>
+            <div class="">
+                <p id="roll">You choose: </p>
+                <p id="comp-roll">The computer choose: </p>
+            </div>
+            <p id="win_text">place holder</p>
+            <div class="rock-paper-scissors">
+                <div class="rps-buttons">
+                    <button onclick="rps(0)">Rock</button>
+                    <button onclick="rps(1)">Paper</button>
+                    <button onclick="rps(2)">Scissors</button>
+                </div>
+            </div>
         </main>
         <footer>
             <a href="https://github.com/19tbusst">https://github.com/19tbusst</a>

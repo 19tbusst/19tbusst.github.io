@@ -181,12 +181,22 @@ main p{
     text-align: center;
 }
 
-.calc-column {
+.rock-paper-scissors {
+    justify-content: center;
     display: flex;
 }
 
-.calc-column button {
-    width: 30px;
+.rps-buttons button {
+    background-color: var(--dark-primary-color);
+    color: var(--background-color);
+    border: none;
+    font-size: 12px;
+    padding: 7px 15px;
+    margin: 8px 8px;
+}
+.rps-buttons:active {
+    background-color: var(--background-color);
+    color: var(--dark-primary-color);
 }
 
 :root {
