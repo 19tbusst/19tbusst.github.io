@@ -6,6 +6,10 @@ light primary color: var(--light-primary)
 text color: var(--text-color)
 */
 
+* {
+    margin: 0;
+}
+
 body {
     margin: 0;
     font: 20px sans-serif;
@@ -197,6 +201,33 @@ main p{
 .rps-buttons:active {
     background-color: var(--background-color);
     color: var(--dark-primary-color);
+}
+
+@media screen and (max-width: 1000px) {
+    .columns {
+        display: block;
+    }
+
+    .column {
+        margin: 0 auto;
+        padding: 25px 0;
+        width: 80vw;
+    }
+
+    .intro img {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    nav button {
+        display: none;
+    }
+
+    .project img {
+        width: 90vw;
+        height: auto;
+    }
 }
 
 :root {
